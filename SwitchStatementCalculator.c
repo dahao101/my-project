@@ -5,11 +5,13 @@ int add, subtract, multiply, divide,choice;
 float value1, value2;
 printf("**********calculator************\n");
 printf("[1] ");
-scanf("%d\n", & value1);
+scanf("%f", & value1);
 printf("[2] ");
-scanf("%d" & value2);
+scanf("%f", & value2);
 printf("**********************************\n\n");
-printf("[1] addition [2] subtraction \n[3] multiplication [4] division");
+printf("******select what process******\n");
+printf("[1] addition [2] subtraction \n[3] multiplication [4] division\n\n");
+scanf("%d", & choice);
 switch(choice)
 {
 case 1: 
@@ -29,6 +31,5 @@ divide = value1 / value2;
 printf(" = [%d]", divide);
 break;
 }
-
 return 0;
 }

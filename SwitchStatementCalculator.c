@@ -30,6 +30,8 @@ case 4:
 divide = value1 / value2;
 printf(" = [%d]", divide);
 break;
+  default:
+    printf("invalid choice!!");
 }
 return 0;
 }

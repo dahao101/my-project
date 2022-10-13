@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    //I used if else statement with  for loop
+    //I used do while loop in this code
     int shirt = 150, short1 = 200, sleeve = 500;
     int choice, process;
     int money, change, discount;

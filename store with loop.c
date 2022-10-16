@@ -1,20 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    //I used do while loop in this code
+    //I used if else statement with  for loop
     int shirt = 150, short1 = 200, sleeve = 500;
     int choice, process;
     int money, change, discount;
-    printf("-----------------------------------------------\n\n");
+    char exit;
+    printf("___________________________________________\n\n");
     do{
     printf("[please choose a product]\n\n\n");
-    printf("(1) [shirt]  $150 \n(2) [short]  $200\n(3) [sleeve] $500\n\n");
-    printf("-----------------------------------------------\n");
+    printf("(1) [shirt]  ₱150 \n(2) [short]  ₱200\n(3) [sleeve] ₱500\n\n");
+    printf("____________________________________________\n: ");
     scanf("%d", & choice);
     }
     while (choice >= 4);
     {
-    printf("------------------------------------------------\n\n");
+    printf("_____________________________________________\n\n");
     }
     switch(choice)
     {
@@ -26,10 +27,10 @@ int main()
         }
         while (money < shirt);
         {
-           printf("------------------------------------------------\n");
+           printf("________________________________________\n");
             process = money - shirt;
             printf("Total payable amount:                  [%d]\n\n", shirt);
-            printf("------------------------------------------------\n");
+            printf("______________________________________\n");
             printf("total change:                           [%d]\n\n", process);
              printf("===========THANKYOU FOR PURCHASING=============\n\n");
         }
@@ -76,5 +77,5 @@ int main()
         default: 
         printf("invalid!");
     }
-    return 0;
+     return 0;
 }

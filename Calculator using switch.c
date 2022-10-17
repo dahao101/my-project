@@ -3,10 +3,16 @@ int main()
 {
 int choice;
 float value1, value2,divide,multiply,subtract,add;
+
 printf("________[select what process]_______\n\n");
 printf("[1] addition [2] subtraction \n[3] multiplication [4] division\n\n");
+do{
+printf("select: ");
 scanf("%d", & choice);
-printf("_____________________________\n");
+}
+while (choice >= 5);
+{
+printf("____________________________________\n");
 printf("Input\n");
 printf(" ");
 scanf("%f", & value1);
@@ -65,6 +71,6 @@ printf(" %.2f", divide);
 break;
   default:
     printf("invalid choice!!");
-}
+    }}
 return 0;
 }

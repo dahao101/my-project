@@ -55,7 +55,7 @@ else if(value1 < value2)
 break;
 case 3:
 multiply = value1 * value2;
-printf("  %.2f", multiply);
+printf("  %.2f",multiply);
 break;
 case 4:
 if(value1 < value2 )

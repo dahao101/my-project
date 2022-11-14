@@ -72,7 +72,7 @@ int main() {
                 printf("\n\nprogram by: mrt ervn\n\n");
                 printf("do you want to repeat? y/n\n");
                 printf("choice: ");
-                scanf("%c",& repeat);
+                scanf(" %c",& repeat);
     }
     return 0;
 }

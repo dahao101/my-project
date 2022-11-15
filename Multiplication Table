@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int inputN,ans;
+    printf("______Multiplication Table______\n\n");
+    //input number to have an end point
+    printf("enter a number: ");
+    scanf("%d", &inputN);
+    if (inputN == 0)
+    {
+        printf("invalid!");
+        return 1;
+    }
+    for(int count = 0;count <= inputN;count++)
+    {
+        ans = count * inputN;
+        printf("[%d x %d] = %d\n",count,inputN,ans);
+    }
+    printf("_________________________");
+    printf("\n\nprogram by mrt ervn\n");
+    printf("github link: https://github.com/dahao101");
+    return 0;
+}
